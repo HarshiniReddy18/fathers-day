@@ -59,7 +59,7 @@ export default function Home() {
             >
               <img
                 src={photo}
-                alt={`Memory ${index + 1}`}
+                alt={"Memory " + (index + 1)}
                 className="w-full h-[450px] object-cover rounded-2xl"
               />
             </motion.div>
