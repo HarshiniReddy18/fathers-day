@@ -1,3 +1,4 @@
+```jsx
 "use client";
 
 import { motion } from "framer-motion";
@@ -12,9 +13,9 @@ const photos = [
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-pink-100 via-rose-50 to-white overflow-hidden">
-      
+
       <section className="relative min-h-screen flex items-center justify-center px-6">
-        
+
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-20 left-10 text-6xl">🌸</div>
           <div className="absolute top-40 right-20 text-5xl">🌷</div>
@@ -35,18 +36,18 @@ export default function Home() {
           />
 
           <h1 className="text-5xl md:text-8xl font-bold text-rose-700 mt-10">
-            Happy Father's Day ❤️
+            హ్యాపీ ఫాదర్స్ డే నాన్న ❤️
           </h1>
 
           <p className="mt-6 text-xl text-rose-600 max-w-2xl mx-auto">
-            To the man who gave me strength, dreams and unconditional love.
+            నాకు బలం, ధైర్యం, ప్రేమ, జీవితానికి దారి చూపిన నా ప్రియమైన నాన్నకి.
           </p>
         </motion.div>
       </section>
 
       <section className="py-20 px-6">
         <h2 className="text-center text-5xl font-bold text-rose-700 mb-16">
-          Our Beautiful Memories 🌸
+          మన అందమైన జ్ఞాపకాలు 🌸
         </h2>
 
         <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
@@ -68,54 +69,62 @@ export default function Home() {
 
       <section className="max-w-4xl mx-auto py-24 px-6">
         <div className="bg-white/70 backdrop-blur-lg rounded-[40px] p-12 shadow-xl">
-          
+
           <h2 className="text-5xl font-bold text-rose-700 mb-8">
-            Dear Dad 💕
+            ప్రియమైన నాన్న ❤️
           </h2>
 
           <p className="text-xl leading-loose text-gray-700">
-            Thank you for every sacrifice you made silently.
+            నాన్న,
             <br />
             <br />
-            Thank you for always putting our happiness before your own.
+            నా కోసం మీరు నిశ్శబ్దంగా చేసిన ప్రతి త్యాగానికి హృదయపూర్వక ధన్యవాదాలు.
             <br />
             <br />
-            Every achievement in my life has your support behind it.
-            Every dream I chase carries the confidence you gave me.
+            మీ ఆనందం కంటే మా ఆనందానికే ఎప్పుడూ ఎక్కువ ప్రాధాన్యం ఇచ్చారు.
             <br />
             <br />
-            You are my first hero, my biggest supporter and one of the
-            greatest blessings in my life.
+            నా జీవితంలో నేను సాధించిన ప్రతి విజయానికి మీ ప్రోత్సాహమే కారణం.
+            నేను కనుగొనే ప్రతి కల వెనుక మీ నమ్మకం, మీ ఆశీర్వాదం ఉన్నాయి.
             <br />
             <br />
-            I love you more than words can express.
+            మీరు నా నాన్న మాత్రమే కాదు,
+            <br />
+            నా మొదటి హీరో,
+            <br />
+            నా పెద్ద బలం,
+            <br />
+            నా జీవితంలో దేవుడు ఇచ్చిన అద్భుతమైన వరం.
             <br />
             <br />
-            Happy Father's Day ❤️
+            మాటల్లో చెప్పలేనంతగా నేను మిమ్మల్ని ప్రేమిస్తున్నాను.
+            <br />
+            <br />
+            హ్యాపీ ఫాదర్స్ డే నాన్న ❤️
           </p>
 
           <p className="mt-10 text-3xl font-bold text-rose-700">
-            — Harshini
+            — మీ హర్షిణి ❤️
           </p>
         </div>
       </section>
 
       <section className="py-20">
         <div className="grid grid-cols-3 text-center max-w-5xl mx-auto">
-          
+
           <div>
             <h3 className="text-5xl font-bold text-rose-700">18+</h3>
-            <p className="mt-2">Years of Love</p>
+            <p className="mt-2">ప్రేమతో నిండిన సంవత్సరాలు</p>
           </div>
 
           <div>
             <h3 className="text-5xl font-bold text-rose-700">∞</h3>
-            <p className="mt-2">Support</p>
+            <p className="mt-2">ఆధారం</p>
           </div>
 
           <div>
             <h3 className="text-5xl font-bold text-rose-700">∞</h3>
-            <p className="mt-2">Memories</p>
+            <p className="mt-2">జ్ఞాపకాలు</p>
           </div>
 
         </div>
@@ -123,10 +132,11 @@ export default function Home() {
 
       <footer className="text-center py-16 text-rose-700">
         <h2 className="text-4xl font-bold">
-          Forever My Hero ❤️
+          ఎప్పటికీ నా హీరో ❤️
         </h2>
       </footer>
 
     </main>
   );
 }
+```
